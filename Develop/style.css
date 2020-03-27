@@ -13,6 +13,18 @@ body {
   padding: 10px;
 }
 
+#timetable{
+  background-color: aliceblue;
+}
+
+#timetable2{
+  background-color: rgb(40, 99, 40);
+}
+
+#timetable3{
+  background-color: rgba(168, 50, 50, 0.89);
+}
+
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -34,6 +46,7 @@ body {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;;
+  padding-top: 10px;
 }
 
 .hour {
