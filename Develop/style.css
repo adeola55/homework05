@@ -13,15 +13,15 @@ body {
   padding: 10px;
 }
 
-#timetable{
-  background-color: aliceblue;
+.future{
+  background-color: rgb(40, 108, 168);
 }
 
-#timetable2{
+.past{
   background-color: rgb(40, 99, 40);
 }
 
-#timetable3{
+.present{
   background-color: rgba(168, 50, 50, 0.89);
 }
 
@@ -81,4 +81,16 @@ body {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+}
+
+.timeblock{
+  text-align: center;
+  vertical-align: middle;
+}
+
+textarea{
+  width: 90%;
+}
+input{
+  width: 90%;
 }
