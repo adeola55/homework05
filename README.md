@@ -22,4 +22,4 @@
 
 I created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-# screenshot of webpage  ![homepage](./assets/screenshots/2020-04-14(1).png)
+# screenshot of webpage ![homepage](./assets/screenshots/soft.png)
