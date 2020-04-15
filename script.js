@@ -1,4 +1,43 @@
-var plannerentries=JSON.parse(localStorage.getItem("dayplanner"))||[]
+var intialPlanner = [
+    {
+     time:"9",
+     value:""   
+    },
+    {
+        time:"10",
+        value:""   
+       },
+       {
+        time:"11",
+        value:""   
+       },
+       {
+        time:"12",
+        value:""   
+       },
+        {
+        time:"13",
+        value:""   
+       }, 
+       {
+        time:"14",
+        value:""   
+       },
+        {
+        time:"15",
+        value:""   
+       },
+        {
+        time:"16",
+        value:""   
+       },
+       {
+        time:"17",
+        value:""   
+       },
+
+]
+var plannerentries=JSON.parse(localStorage.getItem("dayplanner"))|| intialPlanner
 $("#savebutton").on("click",function(event){
     event.preventDefault();
     console.log("In on lcikc")
